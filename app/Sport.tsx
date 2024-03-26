@@ -1,6 +1,11 @@
 
+import React from 'react';
 
-export const Sport = (props) => {
+interface SportProps {
+    image: string;
+    title: string;
+    height:string;
+}export const Sport: React.FC<SportProps> = (props) => {
   return (
     <div>
         <div id="sportsbox" className="w-[35vh] bg-white text-center  drop-shadow-2xl h-[50vh] p-3 flex flex-col gap-3 ">
