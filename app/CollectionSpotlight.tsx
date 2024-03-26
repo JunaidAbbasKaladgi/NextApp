@@ -1,5 +1,12 @@
-// export const CollectionSpotlight = ({heading,images,place,btntext}) => {
-  export const CollectionSpotlight = (props) => {
+import React from 'react';
+
+interface CollectionSpotlightProps {
+    heading: string;
+    images: string;
+    place: string;
+    btntext: string;
+}
+export const CollectionSpotlight: React.FC<CollectionSpotlightProps> = (props) => {
   return (
     <div>
          <div id="collectionbox" className="w-[35vh] bg-white  text-center  drop-shadow-2xl h-[73vh] p-3 flex flex-col gap-3 ">
