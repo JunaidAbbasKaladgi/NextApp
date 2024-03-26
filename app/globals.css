@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[data-theme="dark"] body{
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+[data-theme="dark"] #sportsbox{
+    background-color: rgba(128, 128, 128, 0.242);
+    box-shadow: none;
+}
+[data-theme="light"] #btn{
+    color: #ffff;
+}
+[data-theme="dark"] #data{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+[data-theme="dark"] #collection{
+    background-color: rgba(0, 0, 0, 0.498);
+}
+[data-theme="dark"] #collectionbox{
+    background-color: rgba(128, 128, 128, 0.242);
+}
